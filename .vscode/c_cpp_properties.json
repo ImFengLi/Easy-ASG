@@ -4,14 +4,17 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "include//**"
+                "include//**",
+                "C://Qt//Tools//mingw1310_64//include//**",
+                "C://Qt//Tools//mingw1310_64//x86_64-w64-mingw32//include//**",
+                "C://Qt//6.9.0//mingw_64//include//**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\MinGW\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "C://MinGW//mingw64//bin//g++.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64"

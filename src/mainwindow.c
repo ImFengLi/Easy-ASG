@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "answersheetgenerator.h"
+#include <QVBoxLayout>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent) {
